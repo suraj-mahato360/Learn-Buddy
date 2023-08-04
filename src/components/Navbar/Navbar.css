@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Handjet:wght@200&display=swap');
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Handjet', cursive;
+    font-size: xx-large;
+    /* font-family: 'Averia Serif Libre', cursive; */
+    background: #201b1c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #140407);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #1b0509); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid #ff3d3d;
+}
+.Navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.Navbar .menu{
+    display: flex;
+    align-items: center;
+}
+.Navbar .menu ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+}
+
+.Navbar .menu ul li{
+    padding: 0px 7px 0px 7px;
+    cursor: pointer;
+}
+.Navbar .menu ul li:hover{
+    font-weight: 600;
+}
+.Navbar h1 span{
+    color: #ff3d3d;
+}
+.auth{
+    display: flex;
+    align-items: center;
+}
+.auth button{
+    padding: 10px;
+    background-color: rgb(112, 0, 0);
+    border-radius: 10px;
+    border: 1px solid red;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.auth button:hover{
+    cursor: pointer;
+    transform: scaleX(1.1) scaleY(1.1);
+}

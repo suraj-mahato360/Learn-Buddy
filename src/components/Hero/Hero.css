@@ -1,0 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/blissful');
+
+.Hero{
+    font-family: 'Blissful', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-text{
+    
+}
+.heroImg{
+    max-width: 500px;
+    max-height: 500px;
+}
